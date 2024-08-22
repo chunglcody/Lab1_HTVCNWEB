@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <style>
+        .title-text {
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(173, 55, 55);
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+            text-shadow: 1px 25px 25px #faa9a9;
+        }
+        
+        .nav-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #faa9a9;
+        }
+        
+        .nav-content ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: left;
+        }
+        
+        .nav-content img {
+            width: 30px;
+            height: 30px;
+            margin-right: 50px;
+        }
+        
+        .nav-content ul li {
+            margin-right: 70px;
+            font-weight: bold;
+        }
+        
+        .nav-content a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .starter-content h1 {
+            background-color: rgb(255, 234, 167);
+            color: rgb(173, 55, 55);
+        }
+        
+        .starter-content ul li a {
+            color: rgb(240, 13, 13);
+        }
+        
+        .starter-content a {
+            color: rgb(240, 13, 13);
+        }
+        
+        #Indam span {
+            color: rgb(192, 131, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="title-text">
+                <h1>EXAMPLE CAFE MENU</h1>
+            </div>
+        </div>
+        <hr/>
+    </header>
+    <nav class="nav-content">
+        <img src="/img/home.png" alt="home-img">
+        <p>|</p>
+        <ul>
+
+            <li><a href="html/starter.html">STARTER</a></li>
+            <li><a href="html/main.html">MAIN COURSES</a></li>
+            <li><a href="html/dessert.html">DESSERTS</a></li>
+            <form action="">
+                <input type="text">
+                <input type="submit" value="Go">
+            </form>
+        </ul>
+    </nav>
+    <section>
+        <div class="starter-content">
+            <h1>Starter</h1>
+            <ul>
+                <li>Chesnut and Mushroom Goujons
+                    <a href="#Chesnut">(v)</a>
+                </li>
+                <li>Goat Cheese
+                    <a href="#Goat">(v)</a>
+                </li>
+                <li id="Indam"><span>HONEY SOY CHICKEN KEBABS</span>
+                    <a href="#kebabs">(V)</a>
+                </li>
+                <li>Seafood Salad
+                    <a href="#seafood_Salad">(v)</a>
+                </li>
+            </ul>
+            <a href="#starter">Back to top</a>
+            <div class="Desserts-content">
+                <h1>Desserts</h1>
+                <ul>
+                    <li>Lemon Sorbet
+                        <a href="#lemon_sorbet">(v)</a>
+                    </li>
+                    <li>Chocolate Mud Pie
+                        <a href="#chocolate_mud_pie">(v)</a>
+                    </li>
+                    <li>Pecan Pie
+                        <a href="#pecan_pie">(v)</a>
+                    </li>
+                    <li>Selection of fine Cheeses from Around the World
+                        <a href="#selection">(v)</a>
+                    </li>
+                </ul>
+                <a href="#starter">Back to top</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
